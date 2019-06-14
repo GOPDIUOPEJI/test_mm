@@ -47,11 +47,15 @@
     	letter-spacing: 0.3px;
 	}
 	.posts {
+		flex-wrap: wrap;
 		display: flex;
 		margin-top: 20px;
 		flex-direction: row;
 		padding: 0;
 		li{
+			.post {
+				width: 172px;
+			}
 			&:first-child {
 				margin-left: 0;
 			}
