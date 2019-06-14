@@ -13,11 +13,13 @@ body {
 	font-family: Oswald;
 	font-size: 14px;
 	margin: 0;
-	/*For pixel perfect*/
-	overflow: hidden;
 	div {
 		box-sizing: border-box;
 	}
+}
+
+button:hover {
+	cursor: pointer;
 }
 
 .container {
