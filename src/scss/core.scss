@@ -4,14 +4,17 @@
 @import "~bootstrap/scss/grid";
 
 $bg_color: #fff;
-$max-width: 1440px;
-$row-padding: 0 10px;
+$max-width: 1448px;
+$row-padding: 0 5px;
 $font-size: 14px;
 
 body {
 	background-color: $bg_color;
 	font-family: Oswald;
 	font-size: 14px;
+	margin: 0;
+	/*For pixel perfect*/
+	overflow: hidden;
 	div {
 		box-sizing: border-box;
 	}
@@ -19,8 +22,9 @@ body {
 
 .container {
 	max-width: $max-width;
+	padding: 0 10px;
 	.row {
-		max-width: 1152px;
+		max-width: 1172px;
 		margin: 0 auto;
 		padding: $row-padding;
 	}

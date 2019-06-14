@@ -1,19 +1,24 @@
 header {
-	padding-top: 30px;
+	padding-top: 15px;
 
 	.logo-block {
 		.title {
 			color: #aaaaaa;
 			font-family: PT_Serif Italic;
 			display: inline-block;
+			font-size: 20px;
+		    margin-left: 5px;
+		    letter-spacing: -0.9px;
 		}
 	}
 	.logo {
 		display: inline-block;
 		font-weight: bold;
 		letter-spacing: 2px;
-		font-size: 42px;
+		font-size: 50px;
 		color: #eb3c00;
+		margin: 0;
+		letter-spacing: 1px;
 	}
 	.right-block {
 		display: flex;
@@ -27,16 +32,17 @@ header {
 			align-items: center;
 			position: relative;
 			font-family: PT_Serif Italic;
-			margin-right: 33px;
-			color: #282828;
-
+			margin-right: 35px;
+		    color: #282828;
+		    letter-spacing: 0.7px;
 		}
 		.fa-key {
 			display: flex;
-			width: 13px;
-			height: 13px;
-			margin-right: 9px;
-			color: #ee4400;
+		    width: 13px;
+		    height: 13px;
+		    margin-top: -3px;
+		    margin-right: 10px;
+		    color: #ee4400;
 		}
 		.contact-me {
 			background-color: #ee4400;
@@ -44,7 +50,9 @@ header {
 			outline: none;
 			font-family: PT_Serif Italic;
 			color: #fff;
-			padding: 18px 56px
+			padding: 14px 55px;
+		    letter-spacing: 0px;
+		    font-size: 13px;
 		}
 	}
 
@@ -55,13 +63,15 @@ header {
 			margin: 0;
 			li {
 				display: inline;
-				padding: 18px 28px;
+				padding: 21px 17px;
 				&.active {
 					background-color: #eb3c00;
 				}
 				a {
 					color: #fff;
 					text-decoration: none;
+					font-size: 20px;
+    				letter-spacing: 0.5px;
 				}
 			}
 		}
@@ -70,19 +80,32 @@ header {
 	.search-block {
 		position: relative;
 		.search {
+			&::placeholder{
+				color: #e0e0e0;
+			}
+
 			text-transform: uppercase;
-			padding: 12px 14px;
-			font-family: inherit;
-			width: 270px;
-			border: none;
+		    padding: 10px 13px;
+		    font-family: inherit;
+		    width: 270px;
+		    border: none;
+		    letter-spacing: 0.8px;
 		}
 		.fa-search {
-			width: 17px;
-			height: 17px;
+			font-size: 18px;
 			position: absolute;
 			top: 11px;
 			right: 12px;
 			color: #989a9e;
+		}
+	}
+
+	.container {
+		&:first-child {
+			margin-bottom: 9px;
+			.right-block {
+				padding-bottom: 7px;
+			}
 		}
 	}
 }
