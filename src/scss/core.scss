@@ -2,10 +2,30 @@
 @import "~bootstrap/scss/variables";
 @import "~bootstrap/scss/mixins";
 @import "~bootstrap/scss/grid";
-$bg_color: #fff;
 
+$bg_color: #fff;
+$max-width: 1440px;
+$row-padding: 0 10px;
+$font-size: 14px;
 
 body {
 	background-color: $bg_color;
 	font-family: Oswald;
+	font-size: 14px;
+	div {
+		box-sizing: border-box;
+	}
+}
+
+.container {
+	max-width: $max-width;
+	.row {
+		max-width: 1152px;
+		margin: 0 auto;
+		padding: $row-padding;
+	}
+}
+
+.black-block {
+	background-color: #282828;
 }
