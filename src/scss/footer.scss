@@ -1,0 +1,22 @@
+footer {
+	font-family: Oswald Light;
+	padding-top: 88px;
+	padding-bottom: 55px;
+	position: relative;
+	.back-to-top {
+		cursor: pointer;
+		display: block;
+		text-align: right;
+		position: absolute;
+		top: 88px;
+		right: 0;
+		margin-right: 25px;
+		.fa-chevron-up {
+			font-weight: 300;
+		    font-size: 11px;
+		    position: absolute;
+		    top: 5px;
+		    right: 21px;
+		}
+	}
+}
