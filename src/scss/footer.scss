@@ -1,28 +1,27 @@
 footer {
 	font-family: Oswald Light;
-	padding-top: 88px;
-	padding-bottom: 55px;
 	position: relative;
 
 	.container {
-		background-color: inherit;
 		position: relative;
 		text-align: center;
 		padding: 0;
+		padding-top: 85px;
+		padding-bottom: 55px;
 	}
 	.back-to-top {
 		cursor: pointer;
+		position: relative;
 		display: block;
 		text-align: right;
-		top: 88px;
 		right: 0;
-		padding-right: 6px;
+		padding-right: 26px;
 		.fa-chevron-up {
 			font-weight: 300;
 		    font-size: 11px;
 		    position: absolute;
-		    top: 3px;
-    		right: 28px;
+		    top: 8px;
+    		right: 47px;
 		}
 		.text {
 			padding-top: 2px;

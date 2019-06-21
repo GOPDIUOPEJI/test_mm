@@ -473,6 +473,8 @@ a:visited {
 
 header {
   padding-top: 15px; }
+  header .black-block {
+    margin-top: 10px; }
   header .logo-block .title {
     color: #aaaaaa;
     font-family: PT_Serif Italic;
@@ -851,27 +853,26 @@ body.menu-open {
 
 footer {
   font-family: Oswald Light;
-  padding-top: 88px;
-  padding-bottom: 55px;
   position: relative; }
   footer .container {
-    background-color: inherit;
     position: relative;
     text-align: center;
-    padding: 0; }
+    padding: 0;
+    padding-top: 85px;
+    padding-bottom: 55px; }
   footer .back-to-top {
     cursor: pointer;
+    position: relative;
     display: block;
     text-align: right;
-    top: 88px;
     right: 0;
-    padding-right: 6px; }
+    padding-right: 26px; }
     footer .back-to-top .fa-chevron-up {
       font-weight: 300;
       font-size: 11px;
       position: absolute;
-      top: 3px;
-      right: 28px; }
+      top: 8px;
+      right: 47px; }
     footer .back-to-top .text {
       padding-top: 2px;
       display: block; }
