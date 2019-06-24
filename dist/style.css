@@ -679,7 +679,8 @@ header {
         header .menu-box ul li.menu-item {
           padding: 15px 0;
           font-size: 25px;
-          cursor: pointer; }
+          cursor: pointer;
+          color: #fff; }
           header .menu-box ul li.menu-item.active {
             padding-left: 5px;
             background-color: #ee4400; }
