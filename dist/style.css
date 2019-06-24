@@ -679,8 +679,7 @@ header {
         header .menu-box ul li.menu-item {
           padding: 15px 0;
           font-size: 25px;
-          cursor: pointer;
-          color: #fff; }
+          cursor: pointer; }
           header .menu-box ul li.menu-item.active {
             padding-left: 5px;
             background-color: #ee4400; }
@@ -692,7 +691,10 @@ header {
           width: 270px;
           padding-bottom: 20px; }
       header .menu-box ul a {
+        color: #fff;
         text-decoration: none; }
+        header .menu-box ul a:visited {
+          color: #fff; }
     header .menu-box .search-block .search {
       opacity: 1;
       width: 270px; }
