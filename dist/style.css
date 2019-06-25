@@ -446,6 +446,7 @@
 body {
   background-color: #fff;
   font-family: Oswald;
+  position: relative;
   font-size: 14px;
   margin: 0; }
   body div {
@@ -780,8 +781,8 @@ header {
   left: 0;
   display: none;
   opacity: 0;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background-color: #000;
   transition: all .3s ease; }
   .blur-page.opened {

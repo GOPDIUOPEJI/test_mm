@@ -284,7 +284,7 @@ header {
 	    		}
     		}
     		a {
-    			color: #fff;;
+    			color: #fff;
     			text-decoration: none;
     			&:visited {
     				color: #fff;
@@ -421,8 +421,8 @@ header {
 	left: 0;
 	display: none;
 	opacity: 0;
-	height: 100vh;
-	width: 100vw;
+	height: 100%;
+	width: 100%;
 	background-color: #000;
 	transition:all .3s ease;
 	&.opened {
